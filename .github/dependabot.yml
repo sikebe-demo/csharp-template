@@ -1,14 +1,18 @@
 version: 2
 updates:
-- package-ecosystem: nuget
+- package-ecosystem: dotnet-sdk
   directory: "/"
   schedule:
     interval: daily
-  reviewers:
-  - SIkebe
+- package-ecosystem: devcontainers
+  directory: "/"
+  schedule:
+    interval: daily
 - package-ecosystem: github-actions
   directory: "/"
   schedule:
     interval: daily
-  reviewers:
-  - SIkebe
+- package-ecosystem: nuget
+  directory: "/"
+  schedule:
+    interval: daily
