@@ -9,7 +9,7 @@ A modern C# project template with best practices and development tools configure
 - **Nullable Reference Types** - Enhanced null safety
 - **Implicit Usings** - Cleaner code with reduced boilerplate
 - **Embedded Debug Symbols** - Better debugging experience
-- **Dev Container Support** - Consistent development environment
+- **Dev Container Support** - Consistent development environment with MCP configuration
 
 ## 📋 Prerequisites
 
@@ -40,6 +40,17 @@ The project includes common MSBuild properties:
 ### `global.json`
 
 Specifies .NET SDK version with `latestFeature` roll-forward policy.
+
+### Dev Container MCP Configuration
+
+The dev container includes MCP (Model Context Protocol) server configurations for enhanced AI assistant capabilities:
+
+- **GitHub MCP Server**: Provides access to GitHub repositories, issues, pull requests, and other GitHub resources
+- **Microsoft Learn Docs MCP Server**: Enables access to Microsoft documentation and learning resources
+
+These servers are automatically configured when the dev container starts and require:
+- Node.js (included via dev container features)
+- GitHub token (set `GITHUB_TOKEN` environment variable for GitHub MCP server)
 
 ## 📝 Development
 
