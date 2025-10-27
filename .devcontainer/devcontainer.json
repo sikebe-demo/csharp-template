@@ -20,6 +20,24 @@
     "ghcr.io/devcontainers/features/github-cli:1": {
       "installDirectlyFromGitHubRelease": true,
       "version": "latest"
+    },
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts"
+    }
+  },
+  "mcp": {
+    "servers": {
+      "github": {
+        "command": "npx",
+        "args": ["-y", "@modelcontextprotocol/server-github"],
+        "env": {
+          "GITHUB_PERSONAL_ACCESS_TOKEN": "${containerEnv:GITHUB_TOKEN}"
+        }
+      },
+      "microsoft-docs": {
+        "command": "npx",
+        "args": ["-y", "@modelcontextprotocol/server-microsoft-docs"]
+      }
     }
   },
   "postCreateCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}"
