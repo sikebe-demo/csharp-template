@@ -4,7 +4,7 @@ A modern C# project template with best practices and development tools configure
 
 ## 🚀 Features
 
-- **.NET 9.0** - Latest .NET version with cutting-edge features
+- **.NET 10.0** - Latest .NET version with cutting-edge features
 - **C# Preview** - Access to the latest C# language features
 - **Nullable Reference Types** - Enhanced null safety
 - **Implicit Usings** - Cleaner code with reduced boilerplate
@@ -13,7 +13,7 @@ A modern C# project template with best practices and development tools configure
 
 ## 📋 Prerequisites
 
-- [.NET 9.0 SDK](https://dotnet.microsoft.com/download/dotnet/9.0) or later
+- [.NET 10.0 SDK](https://dotnet.microsoft.com/download/dotnet/10.0) or later
 - [Git](https://git-scm.com/)
 - [Visual Studio Code](https://code.visualstudio.com/) (recommended)
 
