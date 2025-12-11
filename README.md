@@ -9,7 +9,7 @@ A modern C# project template with best practices and development tools configure
 - **Nullable Reference Types** - Enhanced null safety
 - **Implicit Usings** - Cleaner code with reduced boilerplate
 - **Embedded Debug Symbols** - Better debugging experience
-- **Dev Container Support** - Consistent development environment
+- **Dev Container Support** (with GitHub Copilot CLI) - Consistent development environment
 
 ## 📋 Prerequisites
 
